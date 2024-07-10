@@ -5,7 +5,7 @@ import portrait from '../assets/Stephen_Walker.jpg'
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-[#0a192f]'>
+    <div name='home' className='w-full h-screen bg-[#0a192f] pt-24 sm:pt-0'>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <div className='flex flex-col sm:flex-row items-center'>
           <div className='flex-1'>
