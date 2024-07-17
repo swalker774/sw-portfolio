@@ -1,6 +1,6 @@
 import React from 'react'
 import StudyTool from '../assets/study-tool.png'
-import Library from '../assets/library.png'
+import Parahealth from '../assets/parahealth.png'
 import SWDS from '../assets/SWDS.png'
 import Recipe from '../assets/recipe.png'
 import Movies from '../assets/movies.png'
@@ -66,6 +66,24 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
+                
+                <div 
+                style={{backgroundImage: `url(${Parahealth})`}}
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>JS Application
+                        
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="/">
+                                <button className='text-center rounded-lg py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>
+                            </a>
+                            <a href="/">
+                                <button className='text-center rounded-lg py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <div 
                 style={{backgroundImage: `url(${StudyTool})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
@@ -83,24 +101,6 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div 
-                style={{backgroundImage: `url(${Library})`}}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>JS Application
-                        
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
                 <div 
                 style={{backgroundImage: `url(${Recipe})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
